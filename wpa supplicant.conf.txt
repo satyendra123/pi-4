@@ -1,0 +1,7 @@
+country=IN 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+network={ 
+           ssid=" Houston system_5G "	 # YOUR_NETWORK_NAME 
+           psk=" Cifyit@1212"           # wifi ka password yaha likhenge
+           key_mgmt=WPA-PSK 
+         }
